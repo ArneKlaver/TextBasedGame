@@ -1,0 +1,89 @@
+
+enemy{
+	EnemyType = {peasant}
+	level = {1}
+	health = {10}
+	atackdamage = {3}
+	AtackSpeed = {1};
+	CritChance = {0};
+	CritDamage = {2};
+	minSkillPoints = {1}
+	maxGainedSkillPoints = {1}
+}
+enemy{
+	EnemyType = {guard}
+	level = {1}
+	health = {30}
+	atackdamage = {10}
+	AtackSpeed = {1};
+	CritChance = {0};
+	CritDamage = {2};
+	minSkillPoints = {1}
+	maxGainedSkillPoints = {3}
+}
+enemy{
+	EnemyType = {knight}
+	level = {1}
+	health = {70}
+	atackdamage = {30}
+	AtackSpeed = {1};
+	CritChance = {0};
+	CritDamage = {2};
+	minSkillPoints = {2}
+	maxGainedSkillPoints = {5}
+}
+enemy{
+	EnemyType = {royalGuard}
+	level = {1}
+	health = {70}
+	atackdamage = {30}
+	AtackSpeed = {1};
+	CritChance = {20};
+	CritDamage = {2};
+	minSkillPoints = {2}
+	maxGainedSkillPoints = {5}
+}
+enemy{
+	EnemyType = {royalKnight}
+	level = {1}
+	health = {70}
+	atackdamage = {40}
+	AtackSpeed = {1};
+	CritChance = {20};
+	CritDamage = {2};
+	minSkillPoints = {3}
+	maxGainedSkillPoints = {6}
+}
+enemy{
+	EnemyType = {troll}
+	level = {1}
+	health = {150}
+	atackdamage = {10}
+	AtackSpeed = {1};
+	CritChance = {0};
+	CritDamage = {2};
+	minSkillPoints = {2}
+	maxGainedSkillPoints = {6}
+}
+enemy{
+	EnemyType = {assasin}
+	level = {1}
+	health = {10}
+	atackdamage = {40}
+	AtackSpeed = {1};
+	CritChance = {30};
+	CritDamage = {2};
+	minSkillPoints = {2}
+	maxGainedSkillPoints = {6}
+}
+enemy{
+	EnemyType = {goblin}
+	level = {1}
+	health = {10}
+	atackdamage = {30}
+	AtackSpeed = {3};
+	CritChance = {40};
+	CritDamage = {2};
+	minSkillPoints = {2}
+	maxGainedSkillPoints = {6}
+}

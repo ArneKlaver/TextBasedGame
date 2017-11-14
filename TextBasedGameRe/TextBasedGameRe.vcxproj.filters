@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{a22e885e-acd5-4ba0-bda7-a3a76ad1d75b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{c5ad4ef0-4852-4b8a-9907-86f7391bf63e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Client">
+      <UniqueIdentifier>{1d21bcd0-7d1b-470a-8064-dcc5ed03213a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\GUI">
+      <UniqueIdentifier>{63de4dac-184e-46d9-a910-066c77d9622b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Input">
+      <UniqueIdentifier>{7e411669-23dd-4cea-9055-193534fc11f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Time">
+      <UniqueIdentifier>{cf511275-a337-4f81-9c04-8e977039dddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Player">
+      <UniqueIdentifier>{b0f07c5f-f9f5-4509-9cc4-ed4507e5572f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Rooms">
+      <UniqueIdentifier>{db2aac2c-89cd-42cf-89d9-245976e22a72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Enemy">
+      <UniqueIdentifier>{78babc62-58e6-47de-920c-22676d628e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Item">
+      <UniqueIdentifier>{62bd479f-6b98-4b6a-a295-3c471dddcc03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\FileParsing">
+      <UniqueIdentifier>{d255b961-93af-4a63-a3e2-3d9c8fbde0c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Binn">
+      <UniqueIdentifier>{9bd011cc-2797-4ab3-b770-c1f5bca9cf2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Source Files\Engine\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Source Files\Engine\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Source Files\Engine\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Source Files\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="BossRoom.h">
+      <Filter>Source Files\Game\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Source Files\Game\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomDAO.h">
+      <Filter>Source Files\Game\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Source Files\Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Source Files\Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>Source Files\Game\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions.h">
+      <Filter>Source Files\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalRoom.h">
+      <Filter>Source Files\Game\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Source Files\Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Source Files\Game\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientManager.h">
+      <Filter>Source Files\Engine\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="FileParser.h">
+      <Filter>Source Files\Engine\FileParsing</Filter>
+    </ClInclude>
+    <ClInclude Include="binn.h">
+      <Filter>Source Files\Engine\Binn</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBasedGameRe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Source Files\Engine\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files\Engine\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Source Files\Engine\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="BossRoom.cpp">
+      <Filter>Source Files\Game\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomDAO.cpp">
+      <Filter>Source Files\Game\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Source Files\Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>Source Files\Game\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Actions.cpp">
+      <Filter>Source Files\Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalRoom.cpp">
+      <Filter>Source Files\Game\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Source Files\Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Source Files\Game\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files\Game\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientManager.cpp">
+      <Filter>Source Files\Engine\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="FileParser.cpp">
+      <Filter>Source Files\Engine\FileParsing</Filter>
+    </ClCompile>
+    <ClCompile Include="binn.c">
+      <Filter>Source Files\Engine\Binn</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

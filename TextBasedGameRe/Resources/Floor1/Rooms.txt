@@ -1,0 +1,102 @@
+
+//roomTypes NORMAL - BOSSROOM -
+// EnemyTypes NORMAL -
+//roomExits {NORTH,EAST,SOUTH,WEST}
+// start room = -1
+
+room{
+	roomNumber = {-1} // start room = -1
+	roomType = {NORMAL}
+	roomExits = {1,0,0,0}
+	roomEnemys = {}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {1}
+	roomType = {NORMAL}
+	roomExits = {2,10,-1,0}
+	roomEnemys = {peasant}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {2}
+	roomType = {NORMAL}
+	roomExits = {5,0,1,3}
+	roomEnemys = {royalguard}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {3}
+	roomType = {NORMAL}
+	roomExits = {0,2,0,4}
+	roomEnemys = {}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {4}
+	roomType = {NORMAL}
+	roomExits = {0,3,0,0}
+	roomEnemys = {troll,goblin}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {5}
+	roomType = {NORMAL}
+	roomExits = {0,6,2,0}
+	roomEnemys = {}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {6}
+	roomType = {NORMAL}
+	roomExits = {0,7,11,5}
+	roomEnemys = {knight,assasin,knight}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {7}
+	roomType = {NORMAL}
+	roomExits = {0,0,8,6}
+	roomEnemys = {}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {8}
+	roomType = {NORMAL}
+	roomExits = {7,0,9,0}
+	roomEnemys = {}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {9}
+	roomType = {NORMAL}
+	roomExits = {8,0,0,10}
+	roomEnemys = {guard3,knight1}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {10}
+	roomType = {NORMAL}
+	roomExits = {0,9,0,1}
+	roomEnemys = {}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {11}
+	roomType = {BOSSROOM}
+	roomExits = {0,0,0,0}
+	roomEnemys = {}
+	roomEnemyNames = {}
+	roomItems = {}
+}

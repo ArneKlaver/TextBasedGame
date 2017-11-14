@@ -1,0 +1,118 @@
+
+//roomTypes NORMAL - BOSSROOM -
+// EnemyTypes NORMAL -
+//roomExits {NORTH,EAST,SOUTH,WEST}
+// start room = -1
+
+room{
+	roomNumber = {-1} // start room = -1
+	roomType = {NORMAL}
+	roomExits = {7,0,0,1}
+	roomEnemys = {}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {1}
+	roomType = {NORMAL}
+	roomExits = {0,-1,0,2}
+	roomEnemys = {knight}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {2}
+	roomType = {NORMAL}
+	roomExits = {3,1,0,0}
+	roomEnemys = {}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {3}
+	roomType = {NORMAL}
+	roomExits = {4,6,2,0}
+	roomEnemys = {}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {4}
+	roomType = {NORMAL}
+	roomExits = {0,5,3,0}
+	roomEnemys = {}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {5}
+	roomType = {NORMAL}
+	roomExits = {9,0,0,4}
+	roomEnemys = {orc,assasin}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {6}
+	roomType = {NORMAL}
+	roomExits = {0,7,0,3}
+	roomEnemys = {orc}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {7}
+	roomType = {NORMAL}
+	roomExits = {8,12,-1,6}
+	roomEnemys = {royalGuard,royalGuard}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {8}
+	roomType = {NORMAL}
+	roomExits = {10,11,7,0}
+	roomEnemys = {}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {9}
+	roomType = {NORMAL}
+	roomExits = {0,10,5,0}
+	roomEnemys = {}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {10}
+	roomType = {NORMAL}
+	roomExits = {0,0,8,9}
+	roomEnemys = {royalGuard,royalGuard}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {11}
+	roomType = {NORMAL}
+	roomExits = {0,13,12,8}
+	roomEnemys = {royalGuard,assasin,royalGuard}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {12}
+	roomType = {NORMAL}
+	roomExits = {11,0,0,7}
+	roomEnemys = {peasant,peasant,peasant}
+	roomEnemyNames = {}
+	roomItems = {}
+}
+room{
+	roomNumber = {13}
+	roomType = {BOSSROOM}
+	roomExits = {0,0,0,0}
+	roomEnemys = {}
+	roomEnemyNames = {}
+	roomItems = {}
+}

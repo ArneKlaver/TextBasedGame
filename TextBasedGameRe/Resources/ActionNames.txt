@@ -1,0 +1,31 @@
+// only adjust the data between { }
+// commands cant have spaces
+
+// Action
+quit aplication		=0 = {QUIT}
+movement			=1 = {MOVE,GO}
+look in the room	=2 = {SEARCH , LOOK}
+atack				=3 = {ATACK , ATTACK}
+upgrade	skills		=4 = {UPGRADE,LEVEL,TRAIN}
+join server			=5 = {JOIN}
+leave server		=6 = {LEAVE}
+set standart target =7 = {FOCUS}
+
+//SecondAction
+// actions after movement
+go north 		=0 = {NORTH,UP}
+go south		=1 = {SOUTH,DOWN}
+go east			=2 = {EAST,RIGHT}
+go west			=3 = {WEST,LEFT}
+// actions after upgrade
+upgrade health		=4 = {HEALTH}
+upgrade healthregen	=5 = {HEALTHREGEN}
+upgrade damage		=6 = {DAMAGE}
+upgrade atackspeed	=7 = {ATACKSPEED}
+upgrade critchance	=8 = {CRITCHANCE}
+upgrade critdamage	=9 = {CRITDAMAGE}
+
+//ChatActions
+//action always start with //
+quit aplication		=0 = {QUIT}
+change name			=1 = {NAME , CHANGENAME , NAMECHANGE}

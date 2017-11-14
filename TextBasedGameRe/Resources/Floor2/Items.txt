@@ -1,0 +1,15 @@
+//critdamage 2 = damage *2
+// atackspeed 1 = 1 atack per turn
+
+
+
+item{
+	name = {}
+	description = {}
+	upgradehealth = {}
+	upgradeHealthRegen = {}
+	upgradeatackdamage = {}
+	upgradeAtackSpeed = {};
+	upgradeCritChance = {};
+	upgradeCritDamage = {};
+}
